@@ -1,5 +1,10 @@
 name: Primer flujo de trabajo CI/CD (Build, Test and Push Docker Image)
 
+# Agrega esto aquí:
+permissions:
+  contents: read
+  packages: write
+
 # ===== Disparadores del workflow =====
 on:
   push:
